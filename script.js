@@ -1,7 +1,6 @@
 require([
         "esri/WebMap",
         "esri/views/MapView",
-        "esri/widgets/LayerList",
         "esri/widgets/Search"
       ], function (WebMap, MapView, LayerList, Search) {
         const map = new WebMap({
