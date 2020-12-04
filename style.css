@@ -1,0 +1,38 @@
+html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+}
+
+
+  #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+      }
+
+      #logoDiv {
+        padding: 12px;
+        background-color: black;
+        color: pink;
+        text-align: center;
+        width: 100px;
+      }
+
+.bottomright {
+  position: absolute;
+  bottom: 40px;
+  right: 16px;
+  font-size: 18px;
+}
+
+   #search {
+         display: block;
+         position: absolute;
+         top: 20px;
+         left: 74px;
+      }
