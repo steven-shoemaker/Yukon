@@ -2,7 +2,7 @@ require([
         "esri/WebMap",
         "esri/views/MapView",
         "esri/widgets/Search"
-      ], function (WebMap, MapView, LayerList, Search) {
+      ], function (WebMap, MapView, Search) {
         const map = new WebMap({
           portalItem: {
             id: "7df1ffb5001b4c7e87c08f1e3b381a9d"
